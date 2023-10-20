@@ -25,7 +25,7 @@ public class Pagina {
         this.content = content;
     }
 
-    public void afisarePagina(){
+    public void afisare(){
         System.out.println("Content: " + this.content);
         System.out.println("Nr: " + this.nr);
     }
